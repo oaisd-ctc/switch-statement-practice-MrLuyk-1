@@ -4,13 +4,14 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Console.Clear();
         Console.WriteLine("Choose a number 0-100");
         int x = int.Parse(Console.ReadLine());
 
         switch (x)
         {
             case 0:
-                Console.WriteLine("Your number is Zeto");
+                Console.WriteLine("Your number is Zeo");
                 break;
             case 1:
                 Console.WriteLine("Your number is One");
