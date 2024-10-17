@@ -5,7 +5,7 @@ public class Program
     public static void Main(string[] args)
     {
         Console.Clear();
-        Console.WriteLine("Choose a number 0-100");
+        Console.WriteLine("Choose a number 0-200");
         int x = int.Parse(Console.ReadLine());
 
         switch (x)
